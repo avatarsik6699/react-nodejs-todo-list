@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-starter-kit",
+  "version": "1.0.0",
+  "description": "node js starter kit for dev",
+  "main": "index.ts",
+  "author": "VG",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "axios": "0.27.2",
+    "body-parser": "1.20.0",
+    "dotenv": "16.0.2",
+    "express": "4.18.1",
+    "form-data": "4.0.0",
+    "inquirer": "8.0.0",
+    "instagram-private-api": "1.45.3",
+    "module-alias": "2.2.2",
+    "tough-cookie-filestore2": "1.0.0",
+    "tslog": "3.3.4"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.13",
+    "@types/inquirer": "9.0.1",
+    "@typescript-eslint/eslint-plugin": "5.36.1",
+    "@typescript-eslint/parser": "5.36.1",
+    "eslint": "8.23.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "nodemon": "2.0.19",
+    "prettier": "2.7.1",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.2"
+  }
+}
